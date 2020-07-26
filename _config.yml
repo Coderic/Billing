@@ -1,0 +1,22 @@
+title: Coderic Ecosystem
+email: admin@coderic.net
+description: Sómos una comunidad de desarrolladores, que trabajamos de forma colaborativa en los ecosistemas tecnológicos de Coderic, S.A.
+baseurl: ""
+url: "https://schema.coderic.net"
+disqus: coderic
+google_analytics: UA-628256-9
+facebook:
+    app_id: 532970243841279
+    version: v3.2
+author: Coderic
+logo: /images/logo43.png
+lang: es
+markdown: kramdown
+include: [_redirects, _headers]
+remote_theme: CodericEcosystem/coderic-theme
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
