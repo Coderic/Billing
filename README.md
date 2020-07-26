@@ -1,11 +1,11 @@
 ---
 layout: pagina
-title: Ecosystem
+title: Facturación Electrónica
 permalink: /
 canonical_url: https://schema.coderic.net/
 sitemap: false
 ---
-# Coderic Ecosystem
+
 ## ¿Qué estamos haciendo?
 
 Entendemos que desarrollar un módulo de facturación electrónica para cada una de las aplicaciones es un trabajo complejo, y que requiere de un equipo significativo, lo que nos lleva al hecho de que es absurdo que cada proveedor tecnológico deba desarrollar el mismo módulo, cuando todas tienen entre sí, las mismas necesidades.
