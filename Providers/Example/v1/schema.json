@@ -1,0 +1,24 @@
+{
+  "provider":{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Example Provider",
+  "alternateName": "Example Provider, S.A.",
+  "url": "https://example.com/",
+  "logo": "https://example.com/logo.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "technical support",
+      "telephone": "+5X (X)XXX-XX XX",
+      "email": "soporte@example.com",
+    }
+  ]
+},
+  "endPoint":{
+    "production":"https://endpoint.example.com/api/v1",
+    "sandbox":"https://test.endpoint.example.com/api/v1",
+    "AuthType":"Bearer",
+    "docs":"https://docs.example.com/api/index.html"
+  }
+}

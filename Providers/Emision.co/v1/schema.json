@@ -1,0 +1,24 @@
+{
+  "provider":{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Emision.co",
+  "alternateName": "Nodexum, S.A.S.",
+  "url": "https://emision.co/",
+  "logo": "https://emision.co/img/logo.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "technical support",
+      "telephone": "+5X (X)XXX-XX XX",
+      "email": "soporte@example.com",
+    }
+  ]
+},
+  "endPoint":{
+    "production":"https://endpoint.emision.co/api/v1",
+    "sandbox":"https://test.endpoint.emision.co/api/v1",
+    "AuthType":"Bearer",
+    "docs":"https://docs.emision.co/api/index.html"
+  }
+}
