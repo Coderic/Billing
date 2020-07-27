@@ -13,7 +13,7 @@ logo: /images/logo43.png
 lang: es
 markdown: kramdown
 include: [_redirects, _headers]
-remote_theme: CodericEcosystem/coderic-theme
+remote_theme: CodericEcosystem/CodericTheme
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
