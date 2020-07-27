@@ -25,7 +25,3 @@ Es un placer, para mi, y un honor, extenderle una invitación a ser parte de nue
 Así mismo sus desarrolladores podrán proponer ideas y cambios, que nos ayuden a mejorar las aplicaciones que estaremos desarrollando, así como los desarrolladores 
 de las demás empresas participantes, lo cual nos dará una fuerza de desarrollo realmente significativa.
 
-|![WHMCS](https://github.com/WHMCS.png?s=100 =100x)|![Magento](https://github.com/Magento.png?s=100 =100x)|![WooCommerce](https://github.com/woocommerce.png?s=100  =100x)|
-|---|---|---|
-|WHMCS|Magento|WooCommerce|
-
