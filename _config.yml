@@ -11,7 +11,7 @@ facebook:
 author: Coderic
 logo: /images/logo43.png
 lang: es
-markdown: kramdown
+markdown: markdown
 include: [_redirects, _headers]
 remote_theme: CodericEcosystem/CodericTheme
 plugins:
