@@ -32,24 +32,24 @@ A Continuación lo que necesitamos a nivel de desarrollo para desarrollar la int
 
 Por ejemplos:
 
-- EndPoint de Producción: https://endpoint.example.com/api/v1
-- EndPoint de Sandbox: https://test.endpoint.example.com/api/v1
+- EndPoint de Producción: [https://endpoint.example.com/api/v1](https://endpoint.example.com/api/v1)
+- EndPoint de Sandbox: [https://test.endpoint.example.com/api/v1](https://test.endpoint.example.com/api/v1)
 - Tipo de Autenticación: Bearer Token
-- Documentación: https://docs.example.com/api/index.html
+- Documentación: [https://docs.example.com/api/index.html](https://docs.example.com/api/index.html)
 ## ¿Cómo funcionará la integración?
-Disponemos un portal de desarrollo, dentro de github, https://github.com/CodericEcosystem/
+Disponemos un portal de desarrollo, dentro de github, [https://github.com/CodericEcosystem/](https://github.com/CodericEcosystem/)
 
 Accesible desde la siguiente dirección:
-https://schema.coderic.net/
+[https://schema.coderic.net/](https://schema.coderic.net/)
 
-Dentro existe el proyecto de facturación en cuestión https://github.com/CodericEcosystem/Billing el cual será la puerta de enlace desde dónde los módulos podrán descargar el esquema de configuración de cada uno de los proveedores tecnológicos.
+Dentro existe el proyecto de facturación en cuestión [https://github.com/CodericEcosystem/Billing](https://github.com/CodericEcosystem/Billing) el cual será la puerta de enlace desde dónde los módulos podrán descargar el esquema de configuración de cada uno de los proveedores tecnológicos.
 
 Para esto hemos creado un esquema modelo, y crearemos uno por cada versión. Es natural que con el paso del tiempo la tecnología con la que interactúan los módulos avance y deba ser distinta la integración. Por ejemplo, en un principio se estaba desarrollando un sólo método de autenticación el Bearer Token, pero al conocer que hay algunos proveedores tecnológicos han elegido utilizar otros métodos de autenticación, entre ellos el OAuth2, por lo cuál hemos tenido que reescribir nuestro código para poder integrarlo, es muy simple reescribir el código que tenemos sobre la mesa, pero no lo es cuando ya cientos o miles de aplicaciones ya tengan instalados los módulos. pues por eso es tan necesario el versionado.
 
 Vayamos al siguiente paso.
 En la siguiente dirección crearemos el directorio de proveedor.
-https://github.com/CodericEcosystem/Billing/tree/master/Providers
+[https://github.com/CodericEcosystem/Billing/tree/master/Providers](https://github.com/CodericEcosystem/Billing/tree/master/Providers)
 El cual será accesible desde los módulos al invocar el nombre del proveedor.
 Como por ejemplo:
-https://schema.coderic.net/Billing/Providers/Example/v1/schema.json
-https://github.com/CodericEcosystem/Billing/blob/master/Providers/Example/v1/schema.json
+- [https://schema.coderic.net/Billing/Providers/Example/v1/schema.json](https://schema.coderic.net/Billing/Providers/Example/v1/schema.json)
+- [https://github.com/CodericEcosystem/Billing/blob/master/Providers/Example/v1/schema.json](https://github.com/CodericEcosystem/Billing/blob/master/Providers/Example/v1/schema.json)
